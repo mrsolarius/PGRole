@@ -9,5 +9,3 @@ Le script de création des tables ce trouve dans : `sql/creationScript.sql` il c
 
 **IMPORTANT : Le projet disponible directement en ligne ici : https://pgrole.louisvolat.fr/**
 La documentation explique d'ailleurs la mise en production de ce TP
-
-_PS:Un énormer désoler d'avance, j'ai pas eut le temps de me faire corriger le rapport sa risque de ne pas être trés agréable à lire._
