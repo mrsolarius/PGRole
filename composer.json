@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "DBController\\": "App/Controller/DBController",
+      "Model\\": "App/Model",
+      "ViewController\\": "App/Controller/ViewController"
+    }
+  },
+  "require": {
+    "ext-http": "*",
+    "ext-pdo": "*"
+  }
+}
