@@ -34,11 +34,6 @@ if(isset($_SESSION['error']))include ('Template/errorModal.php')?>
             <main>
                 <div class="mainContainer" style="width: 80%;max-width: none">
                     <h1><?php echo $article->getTitle()?></h1>
-                    <div>
-                        <div class="topbarContainer">
-                            <i class="fas fa-heart"></i>
-                        </div>
-                    </div>
                     <p><?php echo $article->getIntroduction()?></p>
                     <p><?php echo $article->getContent()?></p>
                     <h2>Comentaires</h2>

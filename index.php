@@ -41,7 +41,7 @@ if(isset($_SESSION['error']))include ('Template/errorModal.php')?>
          <div class="mainContainer">
                <h1>Les Articles !</h1>
                <div class="topbarContainer">
-               <a id="showPopup"><i class="fas fa-plus"></i></a>
+               <a id="showPopup"><i>+</i></a>
                </div>
             <p>Retrouver ici tous les article de la base de donnée</p>
              <?php

@@ -110,10 +110,6 @@ class ArticleController{
                     <p class="profile__info__extra"><?php echo $article->getIntroduction() ?></p>
                 </div>
                 <div class="profile__stats">
-                    <p class="profile__stats__title">Like</p>
-                    <h5 class="profile__stats__info"><?php echo $article->getNblike() ?></h5>
-                </div>
-                <div class="profile__stats">
                     <p class="profile__stats__title">Commentaire</p>
                     <h5><?php echo $article->getNbcomentary() ?></h5>
                 </div>

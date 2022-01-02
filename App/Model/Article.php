@@ -10,7 +10,6 @@ class Article {
     private $title;
     private $introduction;
     private $content;
-    private $nblike;
     private $nbcomentary;
 
     public function __construct($title,$introduction,$content)
@@ -63,25 +62,9 @@ class Article {
     /**
      * @return mixed
      */
-    public function getNblike()
-    {
-        return $this->nblike;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getNbcomentary()
     {
         return $this->nbcomentary;
-    }
-
-    /**
-     * @param mixed $nblike
-     */
-    public function setNblike($nblike): void
-    {
-        $this->nblike = $nblike;
     }
 
     /**

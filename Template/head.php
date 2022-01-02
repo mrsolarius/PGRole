@@ -14,5 +14,4 @@ $_SESSION['URL']=$_SERVER['REQUEST_URI']
     <title>SLAM 4 - DM Roles</title>
     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./fontansome/css/all.min.css">
 </head>
